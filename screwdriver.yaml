@@ -1,4 +1,4 @@
 jobs:
   main:
-    template: sd/noop
+    template: sd/invalid
     requires: [~pr, ~commit]
