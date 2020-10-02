@@ -1,3 +1,5 @@
 jobs:
   main:
     requires: [~pr, ~commit]
+    template: sd/noop
+    cache: false
